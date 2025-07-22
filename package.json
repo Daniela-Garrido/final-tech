@@ -1,13 +1,22 @@
 {
   "name": "final-tech",
   "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Daniela-Garrido/final-tech#readme",
+  "bugs": {
+    "url": "https://github.com/Daniela-Garrido/final-tech/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniela-Garrido/final-tech.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "bootstrap": "^5.3.7"
   }
