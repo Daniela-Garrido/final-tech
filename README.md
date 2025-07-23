@@ -13,26 +13,25 @@ Proyecto de rediseño del portal web de comercio electrónico para mejorar la ex
 ## 📁 Estructura del Proyecto
 ```bash
 techdesign-redesign/
-├── scss/
-│ ├── base/
-│ │ ├── _reset.scss
-│ │ ├── _typography.scss
-│ │ └── _variables.scss
-│ ├── components/
-│ │ ├── _buttons.scss
-│ │ ├── _cards.scss
-│ │ └── _navigation.scss
-│ ├── layout/
-│ │ ├── _header.scss
-│ │ ├── _footer.scss
-│ │ └── _grid.scss
-│ └── main.scss
+├── assets/
 ├── css/
-│ └── main.css
+│ ├── _homecarousel.scss
+│ ├── _custom.scss
+│ └── custom.scss.map
+├── img/
 ├── js/
 │ └── main.js
-├── img/
+├── node_modules/
+│ ├── @popperjs/
+│ └── bootstrap/
+├── scss/
+│ ├── _home.scss/
+│ ├── _navbar.scss/
+│ ├── custom.scss/
+├── .gitignore
 ├── index.html
+├── package-lock.json
+├── package.json
 └── README.md
 ```
 ## 🛠 Requisitos Cumplidos
