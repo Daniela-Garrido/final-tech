@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar .container-xxl {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .nav-img {
   height: 50px;
 }
@@ -13,6 +18,10 @@
   background-position: center;
   min-height: 600px;
 }
+.hero-card__texto {
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 20px;
+}
 
 .featurette-div {
   background-image: url(https://wallpapers.com/images/featured/1200x480-980p0sw5kstht8u9.jpg);
@@ -20,7 +29,20 @@
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.featurette-div__text {
+  color: white;
+  padding: 40px;
+}
+.featurette-div .orange-text {
+  color: rgb(255, 94, 0);
+}
+
+.lead {
+  color: white;
 }
 
 .footer__info {
@@ -35,6 +57,110 @@
   height: 25px;
   text-decoration: none;
   margin: 10px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1019607843), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.1490196078);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: rgb(36, 240, 9);
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: rgb(36, 240, 9);
+  --bs-btn-active-border-color: rgb(36, 240, 9) ;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .bi {
+  width: 1em;
+  height: 1em;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+.whatsapp-btn {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  left: auto !important;
+  width: 50px !important;
+  height: 50px !important;
+  background: rgb(36, 240, 9) !important;
+  color: white !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3) !important;
+  z-index: 9999 !important;
+  transition: all 0.3s ease !important;
+}
+.whatsapp-btn svg {
+  width: 30px !important;
+  height: 30px !important;
+  fill: white !important;
 }
 
 /*!

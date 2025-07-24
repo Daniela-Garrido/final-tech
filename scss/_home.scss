@@ -3,7 +3,10 @@
     background-size: cover;
     background-position: center;
     min-height: 600px;
-    
+    &__texto{
+        background-color: rgba(0, 0, 0, 0.616);
+        padding:20px
+    }
 }
 .featurette-div{
     background-image: url(https://wallpapers.com/images/featured/1200x480-980p0sw5kstht8u9.jpg);
@@ -11,8 +14,22 @@
     background-position:right ;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    &__text{
+        color: white;
+        padding: 40px; 
+    }
+    .orange-text{
+        color: rgb(255, 94, 0);
+    }
 }
+.lead{
+    color: white;
+}
+
+
 
 .footer__info {
     display: flex;
